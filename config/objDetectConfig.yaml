@@ -1,0 +1,24 @@
+### Parameters
+blob_size : 416
+sec : 2
+
+### Thresholds for object detection
+detectionConfThreshold : 0.5
+suppressionThreshold : 0.3
+
+### Directories path
+coco_data_path : '/home/pallav/yolo/object_detection_v1/modelFiles/object_detect/coco.names'
+yolo_cfg_path : '/home/pallav/yolo/object_detection_v1/modelFiles/object_detect/yolov3.cfg'
+yolo_wts_path : '/home/pallav/yolo/object_detection_v1/modelFiles/object_detect/yolov3.weights'
+
+
+### 79 classes (except person class) are grouped in following 7 categories.
+master_label_dict : {
+    'food' : ['banana', 'apple', 'sandwich', 'orange', 'broccoli', 'carrot', 'hot dog', 'pizza', 'donut', 'cake'],
+    'automobiles' : ['bicycle', 'car', 'motorbike', 'aeroplane', 'bus', 'train', 'truck', 'boat'],
+    'sports_items' : ['frisbee', 'skis', 'snowboard', 'sports ball', 'kite', 'baseball bat', 'baseball glove', 'skateboard', 'surfboard', 'tennis racket'],
+    'animals' : ['bird', 'cat', 'dog', 'horse', 'sheep', 'cow', 'elephant', 'bear', 'zebra', 'giraffe'],
+    'household_items' : ['chair', 'sofa', 'pottedplant', 'bed', 'diningtable', 'toilet', 'tvmonitor', 'laptop', 'mouse', 'remote', 'keyboard', 'cell phone', 'book', 'clock', 'vase', 'scissors', 'teddy bear', 'hair drier', 'toothbrush'],
+    'kitchen_items' : ['microwave', 'oven', 'toaster', 'sink', 'refrigerator', 'bottle', 'wine glass', 'cup', 'fork', 'knife', 'spoon', 'bowl'],
+    'other_items' : ['backpack', 'umbrella', 'handbag', 'tie', 'suitcase', 'fire hydrant', 'stop sign', 'parking meter', 'bench', traffic light]
+}
