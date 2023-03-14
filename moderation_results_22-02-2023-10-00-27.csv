@@ -1,0 +1,3 @@
+contentId,contentURL,parent_model_id,moderation_tags,total_frames_extracted,avg_frame_prediction_time,num_adult_frames,vidMod_status
+63e9bad20ffee807bf70a0a4,https://d2c018txhbneoo.cloudfront.net/wakau/videoContent/9715-1664516551-1676262096.mp4,f3e6c033-c711-47aa-b1f5-cb705b4616ad,"{'neutral': 0.45, 'hentai': 0.03, 'porn': 0.48, 'sexy': 0.03, 'drawing': 0.02}",7.0,3.5590667384011403,3,1.0
+63e9bad53b00e334086c47e4,https://d2c018txhbneoo.cloudfront.net/wakau/videoContent/9715-1664516551-1676262100.mp4,f3e6c033-c711-47aa-b1f5-cb705b4616ad,"{'neutral': 0.64, 'hentai': 0.01, 'porn': 0.09, 'sexy': 0.03, 'drawing': 0.23}",15.0,2.5141083081563314,0,0.0
